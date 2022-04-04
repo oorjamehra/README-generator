@@ -1,7 +1,8 @@
-// TODO: Include packages needed for this application
+// Inquirer package installed
 
-// TODO: Create an array of questions for user input
-const questions = [];
+// Questions to prompt user for info to be entered on README file
+const questions = ["Project Title", "Description", "Installation Instructions", "Usage Info", 
+"Contribution Guidelines", "Test Instructions", "License","Username", "Email"];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
